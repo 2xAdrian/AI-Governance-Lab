@@ -1,7 +1,7 @@
 # AI Governance Program for a Credit Union #
 A hands-on project where I built an AI governance program from scratch for a fictional credit union. I found every AI system it uses, rated the risk, checked which laws apply, wrote the policy, attacked an AI app to test the controls, and moved the risk register into a real GRC platform.
 
-I did this to prepare for Security Analyst and GRC (governance, risk, and compliance) roles. My background is bank compliance (anti-money laundering investigations, sanctions screening, and suspicious activity reports) and email security at Sublime Security. AI governance sits right between those two: it needs someone who understands how regulators think and how attackers think.
+I completed this independent lab to develop practical skills in AI governance, cybersecurity, and governance, risk, and compliance (GRC). My background includes operations leadership at UPS, endpoint troubleshooting, employee training, and HAZMAT and LLAR compliance responsibilities. This project builds on that experience through AI risk assessment, policy development, vendor review, and hands-on security testing.
 
 ## At a glance ##
 
@@ -56,7 +56,7 @@ This table is the result. Each row is one AI system; the last column is the risk
 | Shadow AI | Staff pasting member data into public chatbots | Information Security Officer | Member data leaves with no contract | High |
 | MailShield | Email filter that uses machine learning | Information Security Officer | Reads member email, but its actions can be undone | Medium |
 
-Two ratings took real thought. The money laundering model looked safe because an analyst reviews every alert, but I rated it high: analysts only see what the model flags, so anything it misses is invisible. And the email filter had been listed as "not AI." From my time at Sublime, I knew email security runs on machine learning and quarantines mail on its own, so I corrected the entry. AI hidden inside tools a company already owns is the easiest kind to miss.
+Two ratings took real thought. The money laundering model looked safe because an analyst reviews every alert, but I rated it high: analysts only see what the model flags, so anything it misses is invisible. And the email filter had been listed as "not AI." I recognized that email security tools can use machine learning to classify messages and automatically quarantine threats, so I corrected the inventory entry. AI embedded in existing tools can be overlooked during an inventory.
 
 I also wrote a plan to find unapproved AI use, combining web logs, expense reports, and an anonymous staff survey.
 
@@ -160,4 +160,8 @@ I didn't mitigate everything. I chose to **accept** the email filter risk, becau
 - [Step 5 - Red-team report](05-red-team-report.md)
 - [Step 5 - Vendor review and fairness test](06-vendor-fairness-monitoring.md)
 
-**About me:** Luis Ramirez, Security Analyst. CAMS and CompTIA Security+. [LinkedIn](https://www.linkedin.com/in/luis-ramirez-696336180)
+**About me:** 
+**Author:** Adrian Anoceto  
+**Certification:** CompTIA A+  
+**Background:** Former UPS operations leader with experience in endpoint troubleshooting, training, and compliance responsibilities.  
+**LinkedIn:** [Adrian Anoceto](https://www.linkedin.com/in/adrian-anoceto-5a4154146/)
